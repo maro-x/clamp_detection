@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['clamp']
+
+roboflow:
+  workspace: aiprojects-ww8ru
+  project: clamp_detection-w3zhv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aiprojects-ww8ru/clamp_detection-w3zhv/dataset/1
